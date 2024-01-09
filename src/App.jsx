@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 
 const API_URL = 'https://api.unsplash.com/search/photos';
@@ -26,6 +26,7 @@ function App() {
           }`
         );
         setImages(data.results);
+        // console.log(data);
         setTotalPages(data.total_pages);
         setLoading(false);
       }

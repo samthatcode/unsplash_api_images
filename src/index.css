@@ -6,7 +6,7 @@
   --default-margin: 1rem;
   --medium-margin: 3rem;
   --larger-margin: 5rem;
-  --primary-color: #7676d7;
+  --primary-color: #4e34dd;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
 .title {
   text-align: center;
   margin-top: var(--default-margin);
-  color: #7676d7;
+  color: var(--primary-color);
 }
 
 .buttons {
